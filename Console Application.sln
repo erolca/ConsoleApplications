@@ -91,6 +91,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.24.1. User-Defined Except
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.24.2. Use a custom Exception", "1.24.2. Use a custom Exception\1.24.2. Use a custom Exception.csproj", "{D00224CE-89CE-42FC-9CD7-39332FD4D3DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Override", "Override\Override.csproj", "{62714C08-AF0D-4E36-8687-AAABCCEE1155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.24.3. Derived exceptions", "1.24.3. Derived exceptions\1.24.3. Derived exceptions.csproj", "{EE2839F2-C28F-400F-96B8-BC38CEEFF0E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +269,14 @@ Global
 		{D00224CE-89CE-42FC-9CD7-39332FD4D3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00224CE-89CE-42FC-9CD7-39332FD4D3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D00224CE-89CE-42FC-9CD7-39332FD4D3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62714C08-AF0D-4E36-8687-AAABCCEE1155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62714C08-AF0D-4E36-8687-AAABCCEE1155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62714C08-AF0D-4E36-8687-AAABCCEE1155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62714C08-AF0D-4E36-8687-AAABCCEE1155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2839F2-C28F-400F-96B8-BC38CEEFF0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2839F2-C28F-400F-96B8-BC38CEEFF0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2839F2-C28F-400F-96B8-BC38CEEFF0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2839F2-C28F-400F-96B8-BC38CEEFF0E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -293,5 +305,6 @@ Global
 		{B3FEDA63-F1F0-48FA-8C20-554BC0EEBF10} = {967F466A-CCE1-4043-BF97-CD90B7C9E826}
 		{8AAADF05-0B02-4CEF-AF34-6ED31C4FB0B4} = {967F466A-CCE1-4043-BF97-CD90B7C9E826}
 		{D00224CE-89CE-42FC-9CD7-39332FD4D3DC} = {967F466A-CCE1-4043-BF97-CD90B7C9E826}
+		{EE2839F2-C28F-400F-96B8-BC38CEEFF0E4} = {967F466A-CCE1-4043-BF97-CD90B7C9E826}
 	EndGlobalSection
 EndGlobal
