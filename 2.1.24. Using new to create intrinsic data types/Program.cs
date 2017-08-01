@@ -8,6 +8,7 @@ class Program
     static void Main(string[] args)
     {
         bool b = new bool();            // set to false.
+        b = true;
         int i = new int();              // set to 0.
         double d = new double();        // set to 0.0.
         DateTime dt = new DateTime();   // set to 1/1/0001 12:00:00 AM
