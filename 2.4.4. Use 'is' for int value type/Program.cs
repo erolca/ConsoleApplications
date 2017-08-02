@@ -22,6 +22,12 @@ public class MainClass
         Console.WriteLine("12.ToString() = {0}", 12.ToString());
         Console.WriteLine("12.GetType() = {0}", 12.GetType());
 
+        /*	2.4.6.	Shifting an integer value*/
+        int a = 1000;
+        a >>= 4;
+        Console.WriteLine(a);
+
     }
 }
+ 
  
