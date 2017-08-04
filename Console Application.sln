@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Write_line", "Write_line\Write_line.csproj", "{56682800-1FF7-4C50-B03C-2BC1DDCB09DE}"
 EndProject
@@ -164,6 +164,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.17.3. Use ushort as the parameter for overload methods", "2.17.3. Use ushort as the parameter for overload methods\2.17.3. Use ushort as the parameter for overload methods.csproj", "{876FDA4F-9E17-4549-9D92-8296F5D962E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.18.4. Char IsDigit", "2.18.4. Char IsDigit\2.18.4. Char IsDigit.csproj", "{8EA395B8-194A-4779-AD3D-B36EE58B62A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.2. Declaration of enum data type", "2.36.2. Declaration of enum data type\2.36.2. Declaration of enum data type.csproj", "{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.4. Readonly Fields with enum", "2.36.4. Readonly Fields with enum\2.36.4. Readonly Fields with enum.csproj", "{D7E2C844-65DC-4860-838B-76626C163C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.5. Use enum type categorize objects", "2.36.5. Use enum type categorize objects\2.36.5. Use enum type categorize objects.csproj", "{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -483,6 +489,18 @@ Global
 		{8EA395B8-194A-4779-AD3D-B36EE58B62A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EA395B8-194A-4779-AD3D-B36EE58B62A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EA395B8-194A-4779-AD3D-B36EE58B62A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E2C844-65DC-4860-838B-76626C163C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E2C844-65DC-4860-838B-76626C163C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E2C844-65DC-4860-838B-76626C163C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E2C844-65DC-4860-838B-76626C163C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -546,5 +564,8 @@ Global
 		{D9E12B47-C91C-4DD1-BD68-2F96F351F818} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
 		{876FDA4F-9E17-4549-9D92-8296F5D962E4} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
 		{8EA395B8-194A-4779-AD3D-B36EE58B62A1} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{D7E2C844-65DC-4860-838B-76626C163C20} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
 	EndGlobalSection
 EndGlobal
