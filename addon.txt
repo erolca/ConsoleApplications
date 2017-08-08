@@ -1,0 +1,23 @@
+decimal d = Decimal.Parse("1234.1234");
+double myDbl = double.Parse("99.884");
+ int myInt = Convert.ToInt32(System.Console.ReadLine());
+ int denominator = int.Parse(System.Console.ReadLine());
+
+Console.WriteLine("{0}: bytes: {1}, range: [{2},{3}]",
+            typeof(float).ToString(), sizeof(float), float.MinValue, float.MaxValue);
+			
+output:
+System.Single: bytes: 4, range: [-3.402823E+38,3.402823E+38]
+
+
+ double s1 = 1231234.123412341234; 
+Console.WriteLine("{0:#.###}.", s1); 
+output:1231234.123.
+
+double v = 17688.65849; 
+string str = v.ToString("F2"); 
+output:17688.66
+
+float f = float.Parse("21.99328");
+
+int value = Int32.Parse("99953");

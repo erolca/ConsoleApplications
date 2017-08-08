@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Write_line", "Write_line\Write_line.csproj", "{56682800-1FF7-4C50-B03C-2BC1DDCB09DE}"
 EndProject
@@ -170,6 +170,33 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.4. Readonly Fields with enum", "2.36.4. Readonly Fields with enum\2.36.4. Readonly Fields with enum.csproj", "{D7E2C844-65DC-4860-838B-76626C163C20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.5. Use enum type categorize objects", "2.36.5. Use enum type categorize objects\2.36.5. Use enum type categorize objects.csproj", "{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.6. Pass enum data to a method", "2.36.6. Pass enum data to a method\2.36.6. Pass enum data to a method.csproj", "{DA9854EC-94E5-4B11-9E48-B83BD203A877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.7. Assign int value to enumerations", "2.36.7. Assign int value to enumerations\2.36.7. Assign int value to enumerations.csproj", "{E2EC1B0B-A91D-4819-BCD7-766E40111972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.14. Use enum data as flags", "2.36.14. Use enum data as flags\2.36.14. Use enum data as flags.csproj", "{404C5A59-B07E-4902-BF5B-BB8A506B7F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.15. Using enum as a member for a struct", "2.36.15. Using enum as a member for a struct\2.36.15. Using enum as a member for a struct.csproj", "{BA1A2923-5060-47AB-BA3B-2097CD072665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.36.16. Print out the details of any enum", "2.36.16. Print out the details of any enum\2.36.16. Print out the details of any enum.csproj", "{641C8105-920B-4F84-8C52-9B3228789C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.41.1. The System.Enum Type GetValues GetName and GetType", "2.41.1. The System.Enum Type GetValues GetName and GetType\2.41.1. The System.Enum Type GetValues GetName and GetType.csproj", "{7AB712FC-AD54-4348-8063-1393CB6BBBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.41.2. The System.Enum Type GetNames", "2.41.2. The System.Enum Type GetNames\2.41.2. The System.Enum Type GetNames.csproj", "{DD9B84CB-912B-4512-8F3A-BF5B73B78832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.41.6. Get an enum's type, hex and value Enum.Format", "2.41.6. Get an enum's type, hex and value Enum.Format\2.41.6. Get an enum's type, hex and value Enum.Format.csproj", "{9DFC1EC2-4BDC-4E67-AC27-C2DA324F8F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C80F5303-2639-449A-B33A-1203C87B0F80}"
+	ProjectSection(SolutionItems) = preProject
+		addon.txt = addon.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.37.1. Convert enum to int", "2.37.1. Convert enum to int\2.37.1. Convert enum to int.csproj", "{DC4BC4A3-8F82-482C-B897-3749C680D095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.37.5. Bit Flag Enums", "2.37.5. Bit Flag Enums\2.37.5. Bit Flag Enums.csproj", "{A08CEEFC-475F-4C8A-BAB3-2497BA06800E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.37.6. Using Bit flags when declaring the enum", "2.37.6. Using Bit flags when declaring the enum\2.37.6. Using Bit flags when declaring the enum.csproj", "{73D7DBF9-0228-4E91-90B7-F9E0A917DAEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -501,6 +528,50 @@ Global
 		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9854EC-94E5-4B11-9E48-B83BD203A877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9854EC-94E5-4B11-9E48-B83BD203A877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9854EC-94E5-4B11-9E48-B83BD203A877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9854EC-94E5-4B11-9E48-B83BD203A877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EC1B0B-A91D-4819-BCD7-766E40111972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EC1B0B-A91D-4819-BCD7-766E40111972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EC1B0B-A91D-4819-BCD7-766E40111972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EC1B0B-A91D-4819-BCD7-766E40111972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404C5A59-B07E-4902-BF5B-BB8A506B7F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404C5A59-B07E-4902-BF5B-BB8A506B7F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404C5A59-B07E-4902-BF5B-BB8A506B7F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404C5A59-B07E-4902-BF5B-BB8A506B7F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1A2923-5060-47AB-BA3B-2097CD072665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1A2923-5060-47AB-BA3B-2097CD072665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1A2923-5060-47AB-BA3B-2097CD072665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1A2923-5060-47AB-BA3B-2097CD072665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641C8105-920B-4F84-8C52-9B3228789C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641C8105-920B-4F84-8C52-9B3228789C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641C8105-920B-4F84-8C52-9B3228789C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641C8105-920B-4F84-8C52-9B3228789C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB712FC-AD54-4348-8063-1393CB6BBBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB712FC-AD54-4348-8063-1393CB6BBBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB712FC-AD54-4348-8063-1393CB6BBBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB712FC-AD54-4348-8063-1393CB6BBBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9B84CB-912B-4512-8F3A-BF5B73B78832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9B84CB-912B-4512-8F3A-BF5B73B78832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9B84CB-912B-4512-8F3A-BF5B73B78832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9B84CB-912B-4512-8F3A-BF5B73B78832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFC1EC2-4BDC-4E67-AC27-C2DA324F8F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFC1EC2-4BDC-4E67-AC27-C2DA324F8F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFC1EC2-4BDC-4E67-AC27-C2DA324F8F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFC1EC2-4BDC-4E67-AC27-C2DA324F8F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4BC4A3-8F82-482C-B897-3749C680D095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4BC4A3-8F82-482C-B897-3749C680D095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4BC4A3-8F82-482C-B897-3749C680D095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4BC4A3-8F82-482C-B897-3749C680D095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08CEEFC-475F-4C8A-BAB3-2497BA06800E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08CEEFC-475F-4C8A-BAB3-2497BA06800E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08CEEFC-475F-4C8A-BAB3-2497BA06800E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08CEEFC-475F-4C8A-BAB3-2497BA06800E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D7DBF9-0228-4E91-90B7-F9E0A917DAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D7DBF9-0228-4E91-90B7-F9E0A917DAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D7DBF9-0228-4E91-90B7-F9E0A917DAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D7DBF9-0228-4E91-90B7-F9E0A917DAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -567,5 +638,16 @@ Global
 		{573DFC49-C7B6-4110-B2F4-4DCE1AC66D9A} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
 		{D7E2C844-65DC-4860-838B-76626C163C20} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
 		{BD1A2D75-F36F-4C61-AF8B-40DF0A9BA33E} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{DA9854EC-94E5-4B11-9E48-B83BD203A877} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{E2EC1B0B-A91D-4819-BCD7-766E40111972} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{404C5A59-B07E-4902-BF5B-BB8A506B7F28} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{BA1A2923-5060-47AB-BA3B-2097CD072665} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{641C8105-920B-4F84-8C52-9B3228789C18} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{7AB712FC-AD54-4348-8063-1393CB6BBBAB} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{DD9B84CB-912B-4512-8F3A-BF5B73B78832} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{9DFC1EC2-4BDC-4E67-AC27-C2DA324F8F96} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{DC4BC4A3-8F82-482C-B897-3749C680D095} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{A08CEEFC-475F-4C8A-BAB3-2497BA06800E} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{73D7DBF9-0228-4E91-90B7-F9E0A917DAEB} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
 	EndGlobalSection
 EndGlobal
