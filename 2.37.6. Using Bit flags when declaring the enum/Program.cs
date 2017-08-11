@@ -27,5 +27,7 @@ class MainClass
         Console.WriteLine("   Use Blue   - {0}", UseBlue);
         Console.WriteLine("   Use Yellow - {0}", UseYellow);
         Console.WriteLine("   Use Green  - {0}", UseGreen);
+
+        Console.Write("{0} - {1}", ops, (int)ops);
     }
 }

@@ -1,0 +1,39 @@
+C# Shorthand                   CLS Compliant?                 System Type                Range                                   Meaning in Life
+
+sbyte                          No                             System.SByte               128 to 127                              Signed 8-bit number
+
+byte                           Yes                            System.Byte                0 to 255                                Unsigned 8-bit number
+
+short                          Yes                            System.Int16               32,768 to 32,767                        Signed 16-bit number
+
+ushort                         No                             System.UInt16              0 to 65,535                             Unsigned 16-bit number
+
+int                            Yes                            System.Int32               2,147,483,648 to 2,147,483,647          Signed 32-bit number
+
+uint                           No                             System.UInt32              0 to 4,294,967,295                      Unsigned 32-bit number
+
+long                           Yes                            System.Int64               9,223,372,036,854,775,808 to 9,223,372,036,854,775,807            Signed 64-bit number
+
+ulong                          No                             System.UInt64              0 to 18,446,744,073,709,551,615         Unsigned 64-bit number
+
+char                           Yes                            System.Char                U0000 to Uffff                          A single 16-bit Unicode character
+
+float                          Yes                            System.Single              1.5 * 10^-45 to 3.4 * 10^38             32-bit floating point number
+
+double                         Yes                            System.Double              5.0 * 10^-324 to 1.7 * 10^308           64-bit floating point number
+
+bool                           Yes                            System.Boolean             true or false                           Represents truth or falsity
+
+decimal                        Yes                            System.Decimal             10^0 to 10^28                           A 96-bit signed number
+
+string                         Yes                            System.String              Limited by system memory                Represents a set of Unicode characters
+
+object                         Yes                            System.Object              Any type can be stored in an object variable             The base class of all types in the .NET universe
+
+
+
+
+
+
+
+
