@@ -13,6 +13,7 @@ class GetBytesUInt32Demo
     public static void Main()
     {
         GetBytesUInt32(15);
-        GetBytesUInt32(25);
+        GetBytesUInt32(65534);
+        //byte[] deneme = BitConverter.GetBytes(65535);
     }
 }

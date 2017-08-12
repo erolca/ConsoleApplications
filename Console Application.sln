@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Write_line", "Write_line\Write_line.csproj", "{56682800-1FF7-4C50-B03C-2BC1DDCB09DE}"
 EndProject
@@ -43,7 +43,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonksiyonEzme", "FonksiyonE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.16.params", "1.16.3. Mix params array type\1.16.params.csproj", "{470D743F-5241-403B-A690-48DCF6ED76AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "params", "params", "{B5BC4EFF-1AED-4459-8027-FF99657B9331}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Params", "Params", "{B5BC4EFF-1AED-4459-8027-FF99657B9331}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception", "Exception", "{967F466A-CCE1-4043-BF97-CD90B7C9E826}"
 EndProject
@@ -265,7 +265,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.14.2. Value types are pas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.13.1. Pass references to methods", "1.13.1. Pass references to methods\1.13.1. Pass references to methods.csproj", "{EE496088-F7C6-4F22-8094-E69266FE91B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.13.2. Objects are passed by reference", "1.13.2. Objects are passed by reference.\1.13.2. Objects are passed by reference.csproj", "{CA9ADEDD-6CC8-488F-AD15-B931CF6681C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.13.2. Objects are passed by reference", "1.13.2. Objects are passed by reference\1.13.2. Objects are passed by reference.csproj", "{CA9ADEDD-6CC8-488F-AD15-B931CF6681C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.13.3. Use ref to pass an int value type by reference", "1.13.3. Use ref to pass an int value type by reference\1.13.3. Use ref to pass an int value type by reference.csproj", "{B0063979-A762-45E3-90DC-40F8820A954B}"
 EndProject
@@ -336,6 +336,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.51.6. Convert.ToBase64CharArray()", "2.51.6. Convert.ToBase64CharArray()\2.51.6. Convert.ToBase64CharArray().csproj", "{8D316D7D-4B1D-4078-B9F4-CC4B6871F5F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.51.7. Example of the BitConverter.GetBytes", "2.51.7. Example of the BitConverter.GetBytes\2.51.7. Example of the BitConverter.GetBytes.csproj", "{131D3858-5E22-4450-AEFA-161464C040DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Convert to string", "Convert to string", "{7DE8D78D-2918-4DB1-BFA2-5617E0AFE79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.52.1. Convert value type to string", "2.52.1. Convert value type to string\2.52.1. Convert value type to string.csproj", "{E31A5932-CEA8-40F5-BF0D-4E834EAD6237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.52.2. Convert value type to string in string concatenation", "2.52.2. Convert value type to string in string concatenation\2.52.2. Convert value type to string in string concatenation.csproj", "{7B0D80D0-AD2B-44B8-B8E2-25C44345DCC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boxing Unboxing", "Boxing Unboxing", "{DF9BD525-94ED-4B50-AC92-560BF3CBEADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.53.1. A boxing-unboxing example", "2.53.1. A boxing-unboxing example.\2.53.1. A boxing-unboxing example.csproj", "{87F39762-D271-412D-BB6B-497C2A21B0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.53.2. Boxing occurs when passing values", "2.53.2. Boxing occurs when passing values\2.53.2. Boxing occurs when passing values.csproj", "{BC0EF69C-74F8-455C-ADE6-4FD1645564A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -971,6 +983,22 @@ Global
 		{131D3858-5E22-4450-AEFA-161464C040DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131D3858-5E22-4450-AEFA-161464C040DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131D3858-5E22-4450-AEFA-161464C040DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31A5932-CEA8-40F5-BF0D-4E834EAD6237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31A5932-CEA8-40F5-BF0D-4E834EAD6237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31A5932-CEA8-40F5-BF0D-4E834EAD6237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31A5932-CEA8-40F5-BF0D-4E834EAD6237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0D80D0-AD2B-44B8-B8E2-25C44345DCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0D80D0-AD2B-44B8-B8E2-25C44345DCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0D80D0-AD2B-44B8-B8E2-25C44345DCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0D80D0-AD2B-44B8-B8E2-25C44345DCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F39762-D271-412D-BB6B-497C2A21B0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F39762-D271-412D-BB6B-497C2A21B0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F39762-D271-412D-BB6B-497C2A21B0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F39762-D271-412D-BB6B-497C2A21B0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0EF69C-74F8-455C-ADE6-4FD1645564A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0EF69C-74F8-455C-ADE6-4FD1645564A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0EF69C-74F8-455C-ADE6-4FD1645564A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0EF69C-74F8-455C-ADE6-4FD1645564A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1115,5 +1143,11 @@ Global
 		{64547E9C-06E3-4271-ADC9-072F66122CC3} = {8D976FC3-85C1-4D4B-BBB2-1396827592BF}
 		{8D316D7D-4B1D-4078-B9F4-CC4B6871F5F3} = {8D976FC3-85C1-4D4B-BBB2-1396827592BF}
 		{131D3858-5E22-4450-AEFA-161464C040DC} = {8D976FC3-85C1-4D4B-BBB2-1396827592BF}
+		{7DE8D78D-2918-4DB1-BFA2-5617E0AFE79B} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{E31A5932-CEA8-40F5-BF0D-4E834EAD6237} = {7DE8D78D-2918-4DB1-BFA2-5617E0AFE79B}
+		{7B0D80D0-AD2B-44B8-B8E2-25C44345DCC7} = {7DE8D78D-2918-4DB1-BFA2-5617E0AFE79B}
+		{DF9BD525-94ED-4B50-AC92-560BF3CBEADD} = {0CE7ADF6-1DCD-4D28-94E0-3A444451FE7E}
+		{87F39762-D271-412D-BB6B-497C2A21B0E5} = {DF9BD525-94ED-4B50-AC92-560BF3CBEADD}
+		{BC0EF69C-74F8-455C-ADE6-4FD1645564A6} = {DF9BD525-94ED-4B50-AC92-560BF3CBEADD}
 	EndGlobalSection
 EndGlobal
