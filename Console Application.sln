@@ -365,6 +365,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "override (C Sharp Reference)", "override (C Sharp Reference)\override (C Sharp Reference).csproj", "{CDF79247-61DA-4E8C-8090-F871D357D2B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "virtual (C Sharp Reference)", "virtual (C Sharp Reference)\virtual (C Sharp Reference).csproj", "{197BB8BC-30EC-45EF-8E79-6794CA6DA61E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1043,6 +1045,10 @@ Global
 		{CDF79247-61DA-4E8C-8090-F871D357D2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDF79247-61DA-4E8C-8090-F871D357D2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDF79247-61DA-4E8C-8090-F871D357D2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197BB8BC-30EC-45EF-8E79-6794CA6DA61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197BB8BC-30EC-45EF-8E79-6794CA6DA61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197BB8BC-30EC-45EF-8E79-6794CA6DA61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197BB8BC-30EC-45EF-8E79-6794CA6DA61E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
