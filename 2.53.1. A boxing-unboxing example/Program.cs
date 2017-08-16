@@ -1,4 +1,12 @@
 ﻿using System;
+/*
+ * int, float ve byte gibi stack'te tutulan bir değişkenin içeriğini Heap'ta tutulan object tipli
+ * bir değişkene aktarılması işlemine Boxing
+ *  adı verilmektedir.
+ * 
+ * Heap ta tutulan değişkenlerin içerikleri Stack te tutulan Value Type değişkenlere aktarılma
+ * işlemine Unboxing adı verilmektedir.
+ * */
 
 class MainClass
 {

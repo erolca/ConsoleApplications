@@ -21,3 +21,35 @@ output:17688.66
 float f = float.Parse("21.99328");
 
 int value = Int32.Parse("99953");
+
+object degiskenler, þimdiye kadar hakkýnda bilgi verilen int, float ve byte gibi degiþkenlerin
+ aksine belleðin HEAP adý verilen kýsmýnda tutulurlar.Baþka bir deyiþle int, float double char ve byte gibi degiþkenler belleðin 
+STACK adý verilen kýsmýnda saklanýrken object degiþkenler belleðin HEAP bölgesinde saklanmaktadýr.
+
+int, float ve byte gibi stack'te tutulan bir deðiþkenin içeriðini Heap'ta tutulan object tipli bir deðiþkene aktarýlmasý iþlemine Boxing
+ adý verilmektedir.
+object tipindeki  deðiþkene aktarýlmýþ bilginin tipini öðrenmek istiyorsanýz GetType() metodundan yararlanabilirsiniz.
+
+System.Type tip = typeof(string);
+textBox1.text= tip.Tostring();
+textBox2.text=tip.Namespace;
+textBox3.text=tip.Name;
+
+ Belleðin Stack adý verilen kýsmýnda tutulan bool, byte, sbyte, char, decimal, double,long, ulong, short,
+ushort, int, uint ve float deðikenlere Deðer tipleri veya value type adý verilmektedir. Bellek Heap adý verilen kýsmýnda saklanan class
+object, string, Delagate tipindeki deðiþkenler ise Reference Type olarak adlandýrýlmaktadýr.
+
+Heap ta tutulan deðiþkenlerin içerikleri Stack te tutulan Value Type deðiþkenlere aktarýlma iþlemine Unboxing adý verilmektedir.
+
+
+c# ýn 2.0 surumundan itibaren int, byte ve long gibi value  tipleri null bilgisinin aktarýlmasýný desteklemektedir. 
+Söz konusu Value tipe null aktarýlmasýna null izin verilsin istiyorsanýz degiþken tanýmlarken tip adýna(?) iþaretine eklemelisiniz.
+
+int? yil;
+yil?=null;
+
+sýnýftan yararlanabilmek için;
+System.Nullable<byte> Sayi1;
+System.Nullable<int> Sayi2;
+Sayi1=null;
+Sayi2=null;
