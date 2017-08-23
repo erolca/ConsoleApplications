@@ -20,14 +20,21 @@ public class MainClass
     {
         Color c = Color.red;
 
+
+        /*	2.41.2.	The System.Enum Type: GetNames*/
+
         foreach (string s in Enum.GetNames(c.GetType()))
         {
             Console.WriteLine("Name: {0}", s);
         }
 
-        c = (Color) Enum.Parse(typeof(Color), "Red", true);
+
+        /*2.41.3.	The System.Enum Type: enum value from a string, ignore case*/
+ 
+        c = (Color)Enum.Parse(typeof(Color), "Red", true);
         Console.WriteLine("string value is: {0}", c);
 
+      
 
         /*2.41.4.	The System.Enum Type: see if a specific value is a defined enum member*/
         bool defined = Enum.IsDefined(typeof(Color), 5);

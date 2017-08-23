@@ -9,6 +9,7 @@ namespace Upcase
     class Kare:Sekil
     {
         public int boyut;
+
         public  int AlanHesabi()
         {
 

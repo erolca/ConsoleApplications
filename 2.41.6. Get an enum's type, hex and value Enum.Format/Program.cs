@@ -17,9 +17,8 @@ class MainClass
 
         EmployeeType fred;
         fred = EmployeeType.Developer;
-
         Console.WriteLine("You are a {0}", fred.ToString());
-        Console.WriteLine("Hex value is {0}", Enum.Format(typeof(EmployeeType), fred, "x"));
+        Console.WriteLine("Hex value is {0}", Enum.Format(typeof(EmployeeType), fred, "X"));
         Console.WriteLine("Int value is {0}", Enum.Format(typeof(EmployeeType), fred, "D"));
 
         EmployeeType sally = (EmployeeType)Enum.Parse(typeof(EmployeeType), "Manager");
