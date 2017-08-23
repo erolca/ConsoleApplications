@@ -449,6 +449,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.58.14. Provide default va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.58.15. Reference Compare for nullable value", "2.58.15. Reference Compare for nullable value\2.58.15. Reference Compare for nullable value.csproj", "{84164066-54E6-43FB-B3C9-CD572DFE2537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1.3. Demonstrate the if statement", "4.1.3. Demonstrate the if statement\4.1.3. Demonstrate the if statement.csproj", "{93867A09-BD2C-4BD3-B39C-903E583D4741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1.4. bool values in if statement", "4.1.4. bool values in if statement\4.1.4. bool values in if statement.csproj", "{C032275A-177E-4D77-A944-525BDD603B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Statement", "Statement", "{C01F5F30-7778-4B4C-BD93-4C9AA1643A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1.5. If a value is positive or negative", "4.1.5. If a value is positive or negative\4.1.5. If a value is positive or negative.csproj", "{BEE0FC4A-F74C-46B1-84ED-F5B97C1BC268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1.6. if statement with or and", "4.1.6. if statement with or and\4.1.6. if statement with or and.csproj", "{25699C9D-7A2C-4B55-B18A-9213497AC51D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "if", "if", "{6CAFAE88-1049-4230-B5CE-C4357FDA22F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "switch", "switch", "{B037090D-1EBA-4564-935C-35B1A9F721BD}"
+	ProjectSection(SolutionItems) = preProject
+		4.2.1. The switch Statement.txt = 4.2.1. The switch Statement.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.2. Demonstrate the switch", "4.2.2. Demonstrate the switch\4.2.2. Demonstrate the switch.csproj", "{B3267C61-5E3E-47DC-A3D2-400450FD8A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.3. Use a char to control the switch", "4.2.3. Use a char to control the switch\4.2.3. Use a char to control the switch.csproj", "{0B1CD4E8-C7A5-4D9E-9FF8-AA7BCFE3FEB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1279,6 +1300,30 @@ Global
 		{84164066-54E6-43FB-B3C9-CD572DFE2537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84164066-54E6-43FB-B3C9-CD572DFE2537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84164066-54E6-43FB-B3C9-CD572DFE2537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93867A09-BD2C-4BD3-B39C-903E583D4741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93867A09-BD2C-4BD3-B39C-903E583D4741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93867A09-BD2C-4BD3-B39C-903E583D4741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93867A09-BD2C-4BD3-B39C-903E583D4741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C032275A-177E-4D77-A944-525BDD603B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C032275A-177E-4D77-A944-525BDD603B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C032275A-177E-4D77-A944-525BDD603B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C032275A-177E-4D77-A944-525BDD603B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE0FC4A-F74C-46B1-84ED-F5B97C1BC268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE0FC4A-F74C-46B1-84ED-F5B97C1BC268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE0FC4A-F74C-46B1-84ED-F5B97C1BC268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE0FC4A-F74C-46B1-84ED-F5B97C1BC268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25699C9D-7A2C-4B55-B18A-9213497AC51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25699C9D-7A2C-4B55-B18A-9213497AC51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25699C9D-7A2C-4B55-B18A-9213497AC51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25699C9D-7A2C-4B55-B18A-9213497AC51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3267C61-5E3E-47DC-A3D2-400450FD8A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3267C61-5E3E-47DC-A3D2-400450FD8A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3267C61-5E3E-47DC-A3D2-400450FD8A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3267C61-5E3E-47DC-A3D2-400450FD8A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1CD4E8-C7A5-4D9E-9FF8-AA7BCFE3FEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1CD4E8-C7A5-4D9E-9FF8-AA7BCFE3FEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1CD4E8-C7A5-4D9E-9FF8-AA7BCFE3FEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1CD4E8-C7A5-4D9E-9FF8-AA7BCFE3FEB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1471,5 +1516,13 @@ Global
 		{D50199B0-672D-4CD8-970D-C584F72801BC} = {1800FA9E-56E6-4E17-8AB2-363D0EFECE46}
 		{6216BA27-E26C-40E6-9585-9C683251DF9A} = {1800FA9E-56E6-4E17-8AB2-363D0EFECE46}
 		{84164066-54E6-43FB-B3C9-CD572DFE2537} = {1800FA9E-56E6-4E17-8AB2-363D0EFECE46}
+		{93867A09-BD2C-4BD3-B39C-903E583D4741} = {6CAFAE88-1049-4230-B5CE-C4357FDA22F0}
+		{C032275A-177E-4D77-A944-525BDD603B95} = {6CAFAE88-1049-4230-B5CE-C4357FDA22F0}
+		{BEE0FC4A-F74C-46B1-84ED-F5B97C1BC268} = {6CAFAE88-1049-4230-B5CE-C4357FDA22F0}
+		{25699C9D-7A2C-4B55-B18A-9213497AC51D} = {6CAFAE88-1049-4230-B5CE-C4357FDA22F0}
+		{6CAFAE88-1049-4230-B5CE-C4357FDA22F0} = {C01F5F30-7778-4B4C-BD93-4C9AA1643A2E}
+		{B037090D-1EBA-4564-935C-35B1A9F721BD} = {C01F5F30-7778-4B4C-BD93-4C9AA1643A2E}
+		{B3267C61-5E3E-47DC-A3D2-400450FD8A21} = {B037090D-1EBA-4564-935C-35B1A9F721BD}
+		{0B1CD4E8-C7A5-4D9E-9FF8-AA7BCFE3FEB1} = {B037090D-1EBA-4564-935C-35B1A9F721BD}
 	EndGlobalSection
 EndGlobal

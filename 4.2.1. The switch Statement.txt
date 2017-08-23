@@ -1,0 +1,17 @@
+switch(expression) {
+   case constant1:
+       statement sequence 
+       break;
+   case constant2:
+       statement sequence 
+       break;
+   case constant3:
+       statement sequence 
+       break;
+   .
+   .
+   .
+   default:
+      statement sequence
+      break;
+}
