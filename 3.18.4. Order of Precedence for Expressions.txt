@@ -1,0 +1,52 @@
+Precedence            Operator
+
+1                     array '[ ]', 
+                      checked , 
+                      function '()', 
+                      member operator '.', 
+                      new, 
+                      postfix decrement , 
+                      postfix increment, 
+                      typeof, 
+                      and unchecked operators
+
+2                     unary addition '+', 
+                      casting '()', 
+                      one complement '~', 
+                      not '!', 
+                      prefix decrement, 
+                      prefix increment, 
+                      unary subtraction '-'operators
+
+3                     division '/', 
+                      and modulus '%', 
+                      multiplication '*' operators
+
+4                     binary addition '+' and binary subtraction '-' operators
+
+5                     left-shift '<<' and right-shift '>>' operators
+
+6                     as, 
+                      is, 
+                      less than '<', 
+                      less than or equal to '<=', 
+                      greater than '>', 
+                      greater than or equal to '>=' operators
+
+7                     equals '==' and not equal '!=' operators
+
+8                     Logical And '&' operator
+
+9                     Logical XOR '^' operator
+
+10                    Logical Or '|' operator
+
+11                    Conditional And '&&' operator
+
+12                    Conditional Or '||' operator
+
+13                    Conditional '?:' operator
+
+14                    Assignment '=', 
+                      compound '*=, /-=, %=, +=, -=, <<=, >>=, &=, ^=, and |=', 
+                      and null coalescing '?' operator

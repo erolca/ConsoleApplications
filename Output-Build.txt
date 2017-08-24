@@ -1,0 +1,18 @@
+﻿1>------ Build started: Project: 4.9.2. Demonstrate the goto, Configuration: Debug Any CPU ------
+1>  4.9.2. Demonstrate the goto -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\4.9.2. Demonstrate the goto\bin\Debug\_4._9._2.Demonstrate_the_goto.exe
+2>------ Build started: Project: 4.7.5. Use break with a foreach, Configuration: Debug Any CPU ------
+3>------ Build started: Project: 4.4.1. Use the foreach loop, Configuration: Debug Any CPU ------
+4>------ Build started: Project: 4.4.2. Use break with a foreach, Configuration: Debug Any CPU ------
+5>------ Build started: Project: 4.4.4. Search an array using foreach, Configuration: Debug Any CPU ------
+6>------ Build started: Project: 3.12.3. Use 'is' to avoid an invalid cast, Configuration: Debug Any CPU ------
+7>------ Build started: Project: 3.15.1. sizeof operations, Configuration: Debug Any CPU ------
+2>  4.7.5. Use break with a foreach -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\4.7.5. Use break with a foreach\bin\Debug\_4._7._5.Use_break_with_a_foreach.exe
+3>  4.4.1. Use the foreach loop -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\4.4.1. Use the foreach loop\bin\Debug\_4._4._1.Use_the_foreach_loop.exe
+4>  4.4.2. Use break with a foreach -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\4.4.2. Use break with a foreach\bin\Debug\_4._4._2.Use_break_with_a_foreach.exe
+5>  4.4.4. Search an array using foreach -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\4.4.4. Search an array using foreach\bin\Debug\_4._4._4.Search_an_array_using_foreach.exe
+6>  3.12.3. Use 'is' to avoid an invalid cast -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\3.12.3. Use 'is' to avoid an invalid cast\bin\Debug\_3._12._3.Use__is__to_avoid_an_invalid_cast.exe
+7>C:\Users\Erol CALISGAN\Source\Repos\Console Applications\3.15.1. sizeof operations\Program.cs(6,18,6,19): warning CS0649: Field 'MyValueType.s' is never assigned to, and will always have its default value 0
+7>C:\Users\Erol CALISGAN\Source\Repos\Console Applications\3.15.1. sizeof operations\Program.cs(7,16,7,17): warning CS0649: Field 'MyValueType.i' is never assigned to, and will always have its default value 0
+7>C:\Users\Erol CALISGAN\Source\Repos\Console Applications\3.15.1. sizeof operations\Program.cs(8,17,8,18): warning CS0649: Field 'MyValueType.l' is never assigned to, and will always have its default value 0
+7>  3.15.1. sizeof operations -> C:\Users\Erol CALISGAN\Source\Repos\Console Applications\3.15.1. sizeof operations\bin\Debug\_3._15._1.sizeof_operations.exe
+========== Build: 7 succeeded, 0 failed, 258 up-to-date, 0 skipped ==========
