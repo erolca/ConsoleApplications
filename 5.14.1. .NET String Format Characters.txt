@@ -1,0 +1,15 @@
+String Format Character             Meaning in Life
+
+C or c                              format currency. 
+
+D or d                              format decimal numbers.
+
+E or e                              Used for exponential notation.
+
+F or f                              Used for fixed-point formatting.
+
+G or g                              Stands for general. 
+
+N or n                              numerical formatting.
+
+X or x                              hexadecimal formatting.

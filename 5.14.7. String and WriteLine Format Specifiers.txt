@@ -1,0 +1,19 @@
+Character          Interpretation
+
+C or c             Currency
+
+D or d             Decimal
+
+E or e             Exponent
+
+F or f             Fixed point
+
+G or g             General
+
+N or n             Number; similar to F with the addition of comma thousand separators
+
+P or p             Percentage
+
+R or r             Round-trip 
+
+X or x             Hex
