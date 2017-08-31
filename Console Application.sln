@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Write_line", "Write_line\Write_line.csproj", "{56682800-1FF7-4C50-B03C-2BC1DDCB09DE}"
 EndProject
@@ -723,7 +723,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.12.2. String CopyTo", "5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.13.String Escape", "5.13.String Escape\5.13.String Escape.csproj", "{2B901BA4-B07B-4144-BF08-FB38DFDB0F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.14.2. Use String.Format() to format a value", "5.14.2. Use String.Format() to format a value.\5.14.2. Use String.Format() to format a value.csproj", "{6680DB0E-943A-423F-98C4-3023EEC9B1FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.14.2. Use String.Format() to format a value", "5.14.2. Use String.Format() to format a value\5.14.2. Use String.Format() to format a value.csproj", "{6680DB0E-943A-423F-98C4-3023EEC9B1FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.14.3. String format", "5.14.3. String format\5.14.3. String format.csproj", "{DE9E2A1C-066F-4433-9CE5-D020199F1762}"
 EndProject
@@ -864,6 +864,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.10.11. String equality", "5.10.11. String equality\5.10.11. String equality.csproj", "{D7DEB40F-6B4A-41CC-952E-0ED198B4B4A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.10.12. Sample for String.Equals", "5.10.12. Sample for String.Equals\5.10.12. Sample for String.Equals.csproj", "{5EC5CBAC-12B5-4170-84F4-7BD5E5B1C4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object.ToString() yöntemi", "Object.ToString() yöntemi\Object.ToString() yöntemi.csproj", "{913CB970-B2C4-4B65-A885-0FBB18C16114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToString yöntemi aşırı yüklemesi", "ToString yöntemi aşırı yüklemesi\ToString yöntemi aşırı yüklemesi.csproj", "{43DB3464-A874-43CE-B192-05F013486A42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2435,6 +2439,14 @@ Global
 		{5EC5CBAC-12B5-4170-84F4-7BD5E5B1C4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EC5CBAC-12B5-4170-84F4-7BD5E5B1C4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EC5CBAC-12B5-4170-84F4-7BD5E5B1C4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913CB970-B2C4-4B65-A885-0FBB18C16114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913CB970-B2C4-4B65-A885-0FBB18C16114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913CB970-B2C4-4B65-A885-0FBB18C16114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913CB970-B2C4-4B65-A885-0FBB18C16114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DB3464-A874-43CE-B192-05F013486A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DB3464-A874-43CE-B192-05F013486A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DB3464-A874-43CE-B192-05F013486A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DB3464-A874-43CE-B192-05F013486A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2826,5 +2838,7 @@ Global
 		{CB9D09D0-2654-432D-A926-1BB4160C05D4} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
 		{D7DEB40F-6B4A-41CC-952E-0ED198B4B4A7} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
 		{5EC5CBAC-12B5-4170-84F4-7BD5E5B1C4BC} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
+		{913CB970-B2C4-4B65-A885-0FBB18C16114} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
+		{43DB3464-A874-43CE-B192-05F013486A42} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
 	EndGlobalSection
 EndGlobal
