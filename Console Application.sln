@@ -869,6 +869,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object.ToString() yöntemi"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToString yöntemi aşırı yüklemesi", "ToString yöntemi aşırı yüklemesi\ToString yöntemi aşırı yüklemesi.csproj", "{43DB3464-A874-43CE-B192-05F013486A42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trycatch-When", "trycatch-When\trycatch-When.csproj", "{B7C7B4BC-BCE3-4E9D-9E65-FBAA73239FE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2447,6 +2449,10 @@ Global
 		{43DB3464-A874-43CE-B192-05F013486A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DB3464-A874-43CE-B192-05F013486A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DB3464-A874-43CE-B192-05F013486A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C7B4BC-BCE3-4E9D-9E65-FBAA73239FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C7B4BC-BCE3-4E9D-9E65-FBAA73239FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C7B4BC-BCE3-4E9D-9E65-FBAA73239FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C7B4BC-BCE3-4E9D-9E65-FBAA73239FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2840,5 +2846,6 @@ Global
 		{5EC5CBAC-12B5-4170-84F4-7BD5E5B1C4BC} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
 		{913CB970-B2C4-4B65-A885-0FBB18C16114} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
 		{43DB3464-A874-43CE-B192-05F013486A42} = {EE2C72F1-CA42-474A-8457-FA4D8DABDA46}
+		{B7C7B4BC-BCE3-4E9D-9E65-FBAA73239FE0} = {967F466A-CCE1-4043-BF97-CD90B7C9E826}
 	EndGlobalSection
 EndGlobal
